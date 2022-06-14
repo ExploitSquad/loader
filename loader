@@ -106,7 +106,8 @@ local function ILBOF_fake_script() -- Laoding.LocalScript
 	
 	text.Text = "Verified!"
 	wait(0.60)
-	
+	text.Text = "Chosen Game : Hood Modded "
+	wait(0.60)
 	MainUI.Visible = false
 end
 coroutine.wrap(ILBOF_fake_script)()
